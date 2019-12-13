@@ -73,7 +73,6 @@ def main() :
 
     args = getArgs()
 
-    #shodan_api_key = "FxPQIGS2cy15vq1LEBxsKg7RrP9t9dDP"
     shodan_api_key = args.key
     api = shodan.Shodan(shodan_api_key)
 
