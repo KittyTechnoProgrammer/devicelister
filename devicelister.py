@@ -23,7 +23,7 @@
 #     under certain conditions. Those conditions being that I am also given credit.
 
 import shodan
- import sys
+import sys
 from argparse import ArgumentParser
 
 def getArgs() :
